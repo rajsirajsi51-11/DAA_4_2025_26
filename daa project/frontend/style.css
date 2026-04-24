@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.controls {
+    margin: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bfs-btn {
+    background: #ff9f43;
+}
+
+.dfs-btn {
+    background: #1dd1a1;
+}
+
+.reset-btn {
+    background: #ee5253;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+canvas {
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 2px solid white;
+    background: #2e2e3e;
+}
+
+/* LEGEND */
+#legend {
+    margin-top: 10px;
+}
+
+.legend-item {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.color-box {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.bfs {
+    background: orange;
+}
+
+.dfs {
+    background: green;
+}
+
+.both {
+    background: purple;
+}
